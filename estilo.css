@@ -1,0 +1,95 @@
+body{
+  background-image: url("../img/fondo.jpg");
+  background-attachment: scroll;
+  background-repeat: round;
+}
+.capa-t{
+  height: 100%;
+  background: rgba(141, 159, 193, 0.40);
+}
+
+.logo{
+  padding-top: 5%;
+  padding-left: 30%;
+  text-align: center;
+  width: 80%;
+}
+#menu{
+  padding-top: 1%;
+  padding-right: 15%;
+  text-align: right;
+  position: static;
+}
+#titulo{
+  padding-top: 5%;
+  padding-left: 15%;
+  font-size: 350%;
+  font-style: italic;
+  text-shadow: 2px 2px 2px #ffffff;
+}
+
+#imagenprincipal img
+{width: 93%;
+text-align: center;}
+
+#articulo{
+  padding-top: 1%;
+}
+
+#articulo img{
+  margin-top: 2%;
+  margin-right: 2%;
+  margin-bottom: 1%;
+  float: left;
+  width: 40%;
+}
+#perfil{
+  text-align: center;
+  padding-top: 1%;
+}
+#perfil img{
+  width: 50%;
+  height: 150px;
+  margin-bottom: 2%;
+}
+#form-comentario{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+h5{
+  text-shadow: 2px 2px 1px #e91e63;
+}
+h3{
+  text-shadow: 2px 2px 1px #02010a;
+}
+@media (max-width:900px){
+
+  .logo{
+    padding-left: 10%;
+   text-align: center;
+  }
+
+  #titulo{
+    text-align: center;
+    font-size: 250%;
+  }
+
+  #perfil img{
+    text-align: center;
+    width: 40%;
+  }
+  #menu{
+    text-align: center;
+    padding: 4%;
+  }
+
+  #imagenes img{
+    text-align: center;
+    width: 100%
+  }
+  #imagenprincipal img{
+    text-align: center;
+    width: 100%
+  }
+
+}
